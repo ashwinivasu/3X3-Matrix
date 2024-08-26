@@ -1,0 +1,33 @@
+.matrix {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .box {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #000;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    transition: background-color 0.3s ease;
+  }
+  .header{
+    color:rgb(11, 3, 3);
+    font-family:"Arial Italic";
+    font-size:50px;
+    text-align:center;
+    padding:25px;
+  }
+  .background{
+    background-image:linear-gradient(rgb(241, 135, 153),white);
+    height:100vh;
+    width:100%;
+  }
